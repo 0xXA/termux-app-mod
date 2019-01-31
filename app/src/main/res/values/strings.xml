@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+   <string name="application_name">Termux</string>
+   <string name="shared_user_label">Termux user</string>
+   <string name="new_session">New session</string>
+   <string name="new_session_failsafe">Failsafe</string>
+   <string name="toggle_soft_keyboard">Keyboard</string>
+   <string name="reset_terminal">Reset</string>
+   <string name="style_terminal">Style</string>
+   <string name="share_transcript_title">Terminal transcript</string>
+   <string name="help">Help</string>
+   <string name="toggle_keep_screen_on">Keep screen on</string>
+
+   <string name="bootstrap_installer_body">Installing…</string>
+   <string name="bootstrap_error_title">Unable to install</string>
+   <string name="bootstrap_error_body">Termux was unable to install the bootstrap packages.\n\nCheck your network connection and try again.</string>
+   <string name="bootstrap_error_abort">Abort</string>
+   <string name="bootstrap_error_try_again">Try again</string>
+   <string name="bootstrap_error_not_primary_user_message">Termux can only be installed on the primary user account.</string>
+
+   <string name="max_terminals_reached_title">Max terminals reached</string>
+   <string name="max_terminals_reached_message">Close down existing ones before creating new.</string>
+
+   <string name="reset_toast_notification">Terminal reset.</string>
+
+  <string name="select_url">Select URL</string>
+  <string name="select_url_dialog_title">Click URL to copy or long press to open</string>
+  <string name="select_all_and_share">Share transcript</string>
+  <string name="select_url_no_found">No URL found in the terminal.</string>
+  <string name="select_url_copied_to_clipboard">URL copied to clipboard</string>
+  <string name="share_transcript_chooser_title">Send text to:</string>
+
+  <string name="kill_process">Kill process (%d)</string>
+  <string name="confirm_kill_process">Really kill this session?</string>
+
+  <string name="session_rename_title">Set session name</string>
+  <string name="session_rename_positive_button">Set</string>
+  <string name="session_new_named_title">New named session</string>
+  <string name="session_new_named_positive_button">Create</string>
+
+  <string name="styling_not_installed">The Termux:Style add-on is not installed.</string>
+  <string name="styling_install">Install</string>
+
+  <string name="notification_action_exit">Exit</string>
+  <string name="notification_action_wake_lock">Acquire wakelock</string>
+  <string name="notification_action_wake_unlock">Release wakelock</string>
+
+  <string name="file_received_title">Save file in ~/downloads/</string>
+  <string name="file_received_edit_button">Edit</string>
+  <string name="file_received_open_folder_button">Open folder</string>
+
+  <!-- styling -->
+  <string name="color_prompt">Choose color</string>
+  <string name="font_prompt">Choose font</string>
+  <string name="writing_failed">Failed to install file:\n\n</string>
+
+  <!-- float -->
+  <string name="app_name_float">Termux:Float</string>
+  <string name="initial_instruction_toast">Long press on window to move or resize\n\nDouble tap and drag finger up or down to change font size</string>
+  <string name="after_long_press">Drag to position and pinch to resize</string>
+
+  <string name="draw_overlay_permission_explanation">This app requires permission to draw overlays.</string>
+  <string name="grant_permission">Grant permission</string>
+
+  <string name="notification_title">Termux:Float</string>
+  <string name="notification_message_visible">Touch to hide window.</string>
+  <string name="notification_message_hidden">Touch to show window.</string>
+
+  <string name="paste_text">Paste</string>
+  <string name="copy_text">Copy</string>
+  <string name="text_selection_more">More…</string>
+
+  <!-- widget -->
+  <string name="shortcut_widget_name">Termux widget</string>
+  <string name="single_shortcut_name">Termux shortcut</string>
+  <string name="no_shortcut_scripts">No files in\n$HOME/.shortcuts/</string>
+  <string name="refresh">Refresh</string>
+  <string name="termux">Termux</string>
+  <string name="scripts_reloaded">Termux shortcuts reloaded</string>
+  <string name="bad_token_message">This shortcut has become invalid - remove and add again.</string>
+
+  <!-- tasker -->
+  <string name="plugin_name">Termux</string>
+  <string name="execute_in_terminal">Execute in a terminal session</string>
+  <string name="executable_path_hint">Executable in ~/.termux/tasker/</string>
+
+  <string name="no_tasker_folder_title">No ~/.termux/tasker/ directory</string>
+  <string name="no_tasker_folder_message">You need to create a ~/.termux/tasker/ directory containing scripts to be executed.</string>
+
+  <string name="blurb_in_background">Execute ~/.termux/tasker/%1$s %2$s</string>
+  <string name="blurb_in_terminal">Execute ~/.termux/tasker/%1$s %2$s in a terminal session.</string>
+
+  <!-- From Tasker API: -->
+  <string name="app_name_tasker">Termux:Task</string>
+  <string name="twofortyfouram_locale_breadcrumb_format" tools:ignore="UnusedResources">%1$s%2$s%3$s</string>
+  <string name="twofortyfouram_locale_breadcrumb_separator" tools:ignore="UnusedResources">\u0020&gt;\u0020</string>
+  <string name="twofortyfouram_locale_menu_dontsave">Cancel</string>
+  <string name="twofortyfouram_locale_menu_save">Done</string>
+  <string name="arguments_hint">Arguments</string>
+
+  <!-- From Termux API: -->
+  <string name="app_name_api">Termux:API</string>
+  <string name="share_file_chooser_title">Share with</string>
+  <string name="permission_description">Termux:API needs the following permission(s):\n</string>
+
+</resources>

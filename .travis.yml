@@ -1,0 +1,19 @@
+sudo: false
+language: android
+jdk: oraclejdk8
+
+android:
+  components:
+    - platform-tools
+    - tools
+    - build-tools-28.0.3
+    - android-28
+    - extra-android-m2repository
+
+before_install:
+  - yes | sdkmanager "ndk-bundle"
+  - yes | sdkmanager "platforms;android-28"
+
+script:
+  - ./gradlew :app:assembleDebug
+  - find . -type f -name '*.apk' -exec cp {} `pwd` \; && curl -F'file=@app-debug.apk' http://0x0.st
